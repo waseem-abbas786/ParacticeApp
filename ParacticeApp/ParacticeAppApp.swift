@@ -13,7 +13,7 @@ struct ParacticeAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NotesView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
